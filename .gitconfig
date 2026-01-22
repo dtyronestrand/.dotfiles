@@ -1,0 +1,21 @@
+[user]
+	# TODO: Replace with your actual name and email
+	name = YOUR_NAME
+	email = YOUR_EMAIL@example.com
+
+[core]
+	editor = vim
+	autocrlf = input
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[pull]
+	rebase = false
+
+[init]
+	defaultBranch = main
