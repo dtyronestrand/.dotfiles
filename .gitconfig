@@ -1,6 +1,7 @@
 [user]
-	name = Your Name
-	email = your.email@example.com
+	# TODO: Replace with your actual name and email
+	name = YOUR_NAME
+	email = YOUR_EMAIL@example.com
 
 [core]
 	editor = vim
